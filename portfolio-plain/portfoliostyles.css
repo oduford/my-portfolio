@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    font: 16px sans-serif;
+}
+
+.title {
+    font: lighter 16px sans-serif;
+}
+
+p {
+    color: white;
+    font: lighter 24px sans-serif;
+    margin-top: 0px;
+}
+
+.myName {
+    color: white;
+    font: bold 10vw "helvetica-neue", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.1fr;
+    align-items: flex-start;
+    column-gap: 50px;
+}
+
+.intro2 {
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.selected-works img {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
